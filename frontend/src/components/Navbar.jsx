@@ -16,12 +16,9 @@ export default function Navbar() {
         </Link>
 
         <div className="flex items-center gap-4">
-          <a
-            href="https://app.concordiachat.com"
-            className="text-sm font-semibold bg-indigo-600 text-white px-5 py-2 rounded-lg hover:bg-indigo-700 transition-colors"
-          >
-            Open App
-          </a>
+          <span className="text-xs font-bold uppercase tracking-widest bg-indigo-50 text-indigo-600 px-4 py-2 rounded-lg">
+            End of Project
+          </span>
         </div>
 
       </div>

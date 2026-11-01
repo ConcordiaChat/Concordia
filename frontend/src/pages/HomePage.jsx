@@ -12,15 +12,24 @@
         />
       </section>
 
-      {/* CTA strip */}
-      <section className="bg-indigo-600 py-10 px-4">
-        <div className="max-w-xl mx-auto flex flex-col sm:flex-row gap-4 justify-center items-center">
-          <a
-            href="https://app.concordiachat.com"
-            className="w-full sm:w-auto px-10 py-3 bg-white text-indigo-600 font-bold rounded-xl hover:bg-indigo-50 transition-colors shadow-md text-center"
-          >
-            Open Concordia
-          </a>
+      {/* End-of-project notice */}
+      <section className="bg-indigo-600 py-12 px-4 text-white">
+        <div className="max-w-2xl mx-auto text-center">
+          <span className="inline-block px-3 py-1 rounded-full bg-white/15 text-xs font-bold uppercase tracking-widest">
+            End of Project · October 2026
+          </span>
+          <h2 className="mt-5 text-2xl sm:text-3xl font-black">
+            Concordia has reached its end of life
+          </h2>
+          <p className="mt-4 text-indigo-100 leading-relaxed">
+            Concordia was a proof of concept for one identity across many
+            self-hosted chat servers. It showed the idea works, and other projects
+            have since done it far better. The app and its servers have been shut
+            down, but the source code stays public below.
+          </p>
+          <p className="mt-3 text-indigo-100 leading-relaxed">
+            Thank you to everyone who tried it.
+          </p>
         </div>
       </section>
 
@@ -28,7 +37,7 @@
       <section className="bg-white border-t border-gray-100 py-20 px-4">
         <div className="max-w-5xl mx-auto">
           <p className="text-center text-indigo-400 text-xs uppercase tracking-widest font-semibold mb-14">
-            What makes Concordia different
+            What Concordia set out to do
           </p>
           <div className="grid sm:grid-cols-3 gap-x-10 gap-y-14 text-center">
             {[
@@ -76,7 +85,7 @@
       {/* Footer */}
       <footer className="mt-auto border-t border-gray-100 py-10 px-4 text-xs text-gray-400">
         <div className="max-w-5xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-6">
-          <span>{'\u00A9'} {new Date().getFullYear()} Concordia Federation</span>
+          <span>{'\u00A9'} 2026 Concordia Federation · End of Project</span>
           <div className="flex flex-wrap justify-center gap-x-6 gap-y-2">
             {[
               { label: 'Concordia', href: 'https://github.com/Postman67/Concordia' },
